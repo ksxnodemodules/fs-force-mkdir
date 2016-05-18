@@ -2,7 +2,7 @@
 {
 	"name": "fs-force-mkdir",
 	"description": "Just provide a path to create directories",
-	"version": "1.0.0",
+	"version": "0.0.0",
 	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
 	"contributors": [
 		"Hoàng Văn Khải <hvksmr1996@gmail.com>"
