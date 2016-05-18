@@ -5,12 +5,12 @@
 	var {mkdir, stat, unlink} = require('fs');
 	var path = require('path');
 	var justTry = require('try-promise').try;
-	var {addPromise} = require('./utils/promise.js');
-	var Info = require('./utils/info.js');
-	var Action = require('./utils/action.js');
-	var _throwif = require('./utils/throw-if.js');
-	var _donothing = require('./utils/do-nothing.js');
-	var flatArray = require('./utils/flat-array.js');
+	var {addPromise} = require('fs-force-utils/promise');
+	var Info = require('fs-force-utils/info');
+	var Action = require('fs-force-utils/action');
+	var _throwif = require('fs-force-utils/throw-if');
+	var _donothing = require('fs-force-utils/do-nothing');
+	var flatArray = require('fs-force-utils/flat-array');
 
 	var resolvePath = path.resolve;
 	var getParent = path.dirname;
