@@ -61,6 +61,6 @@
 		addPromise((resolve) => __mkdir(dirname, (...errinf) => resolve(errinf), onaction))
 			.onfinish((errinf) => onfinish(...errinf));
 
-	module.exports = (dirname, onfinish = _throwif, onaction = _donothing) => _mkdir(resolvePath(dirname), onfinish, _donothing);
+	module.exports = (dirname, onfinish = _throwif, onaction = _donothing) => _mkdir(resolvePath(dirname), onfinish, onaction);
 
 })(module);
