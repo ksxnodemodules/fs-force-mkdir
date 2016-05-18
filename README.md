@@ -11,9 +11,9 @@
 var mkdir = require('fs-force-mkdir');
 mkdir('./a/b/c', (error, info) => {
     if (error) {
-        console.error('Failed');
+        console.error('Failed', error);
     } else {
-        console.log('Succeed');
+        console.log('Succeed', info);
     }
 });
 ```
