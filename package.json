@@ -16,8 +16,8 @@
 		"node": ">=6.0.0"
 	},
 	"dependencies": {
-		"fs-one-promise-queue": ">=1.0.0 <2.0.0",
-		"try-promise": ">=1.0.0 <2.0.0",
+		"fs-one-promise-queue": "^1.0.0",
+		"try-promise": "^1.0.0",
 		"fs-force-utils": "ksxnodemodules/fs-force-utils#v0.0.0"
 	},
 	"main": "index.js",
